@@ -1,0 +1,111 @@
+body {
+  font-family: "Trebuchet MS", "Monospace Medium";
+  height: 100vh;
+}
+
+header {
+  height: 50%;
+}
+
+.navbar-nav li a {
+  color: black !important;
+}
+
+.bg-grey {
+  background-color: #dddddd;
+}
+
+.bold-title {
+  font-family: "Trebuchet MS Bold", "Monospace Bold";
+  font-size: 2em;
+}
+
+.bold-text {
+  font-family: "Trebuchet MS Bold", "Monospace Bold";
+  font-size: 1em;
+}
+
+.title {
+  position: absolute;
+  top: 50px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.form-control {
+  font-size: 0.8rem;
+}
+
+.form-control::placeholder {
+  color: #000000;
+}
+
+.search-button {
+  background-color: rgba(90, 181, 90, 0.8);
+  width: 100%;
+  border-radius: 0;
+  border: none;
+}
+.search-button:hover {
+  background-color: rgba(62, 143, 62, 0.8);
+}
+
+.form-row {
+  background-color: rgba(136, 136, 136, 0.8);
+  padding: 5px;
+}
+
+.form-group {
+  margin: 0;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../images/prev.jpg);
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/next.jpg);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+.carousel-control-prev {
+  left: 20px;
+}
+
+.carousel-control-next {
+  right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20%;
+}
+
+.green-button {
+  background-color: #3e8f3e;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.slider-car {
+  width: 70%;
+}
+
+footer img {
+  width: 33%;
+}
+footer p {
+  font-size: 75%;
+}
+
+footer p {
+  font-size: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

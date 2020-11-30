@@ -1,0 +1,93 @@
+@import ../node_modules/bootstrap/scss/mixins
+@import ../node_modules/bootstrap/scss/_functions
+@import ../node_modules/bootstrap/scss/_variables
+    
+
+//Variables pour mon css :
+
+$vertFonce :#3e8f3e    
+$vertClair: #5ab55a
+$vertFonceOp: rgba($vertFonce, 0.8)
+$vertClairOp: rgba($vertClair, 0.8)
+$blanc :#ffffff
+$grisClair : #dddddd
+$grisClairOp: rgba($grisClair, 0.8)
+$grisMoyen : #888888
+$grisMoyenOp: rgba($grisMoyen, 0.8)
+$noir :#000000
+
+$fontReg : 'Trebuchet MS', 'Monospace Medium'
+$fontBold : 'Trebuchet MS Bold', 'Monospace Bold'
+
+body
+    font-family: $fontReg
+    height : 100vh
+
+header
+    height: 50%
+
+.navbar-nav
+    li
+        a
+            color: black!important
+.bg-grey
+    background-color: $grisClair
+.bold-title
+    font-family: $fontBold
+    font-size : 2em 
+.bold-text
+    font-family: $fontBold
+    font-size : 1em 
+.title
+    position: absolute
+    top: 50px
+.nav-link
+    color: $blanc!important
+.form-control
+    font-size: 0.8rem
+.form-control::placeholder
+    color: $noir
+.search-button
+    background-color: $vertClairOp
+    width: 100%
+    border-radius: 0 
+    border: none
+    &:hover
+        background-color: $vertFonceOp
+.form-row
+    background-color: $grisMoyenOp
+    padding: 5px
+.form-group
+    margin: 0
+.carousel-control-prev-icon
+    background-image: url(../images/prev.jpg)
+.carousel-control-next-icon
+    background-image: url(../images/next.jpg)
+.carousel-control-prev,
+.carousel-control-next
+    width: 10%
+.carousel-control-prev
+    left: 20px
+.carousel-control-next
+    right: 20px
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+    width: 20%
+.green-button
+    background-color: $vertFonce
+    color: $blanc
+    font-size: 0.8rem
+.slider-car
+    width: 70%
+
+footer
+    img
+        width: 33%
+    p
+        font-size: 75%
+
+@include media-breakpoint-up(lg)
+@include media-breakpoint-up(xl)
+footer
+    p
+        font-size: 100%
